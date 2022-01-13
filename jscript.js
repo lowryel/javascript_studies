@@ -393,5 +393,5 @@ console.log(total);
 function Speech(speak){
     return speak
 }
-console.log(Speech("In the end, you have only you")
+console.log(Speech("In the end, you have only you"))
 //In the end, you have only you
