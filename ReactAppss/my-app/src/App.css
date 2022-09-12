@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: rgb(150, 55, 0);
+    font-family: cursive;
+}
+.tc-header{
+    background-color: rgb(212, 41, 141);
+    
+}

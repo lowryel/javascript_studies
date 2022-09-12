@@ -1,9 +1,9 @@
 import React from 'react';
 import 'tachyons';
+
 function Card(props) {
     return(
-        <div className='tc grow br3 bg-violet-500 ma2 dib pa3 shadow-5'>
-            <strike><h3 className=''>{props.greeting}</h3></strike>
+        <div className='tc br1 grow bg-violet-600 ma2 dib pa2 shadow-2'>
             <img src='./img/logo192.png' alt='pic'/>
             <div>
                 
