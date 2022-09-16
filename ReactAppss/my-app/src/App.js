@@ -18,7 +18,7 @@ class App extends Component {
     onSearchChange=(event)=>{
         this.setState({ searchfield: event.target.value });
     }
-    
+
     render(){
         const filteredImages=this.state.robots.filter(robot =>{
             return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
@@ -26,7 +26,6 @@ class App extends Component {
         console.log(filteredImages)
         return (
 
-            
             <div className="tc">
                 <h1 className="f1">Reactive Gallery</h1>
                 <SearchBox searchChange={this.onSearchChange}/> 
